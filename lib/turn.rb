@@ -14,7 +14,7 @@ def input_to_index(n)
 end
 
 def valid_move?(board, idx)
-  if (input_to_index(idx) < 9 && (board[idx] = " " || board[idx] = "" || board[idx] = nil)
+  if (input_to_index(idx) < 9) && (board[idx] = " " || board[idx] = "" || board[idx] = nil)
     true
   else
     false
